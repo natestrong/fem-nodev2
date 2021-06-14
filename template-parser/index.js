@@ -23,7 +23,7 @@ const TEMPLATE_DATA = {
 };
 
 readAndWriteTemplateUpdate(TEMPLATE_PATH, TEMPLATE_DATA, WRITE_PATH)
-    .then(() => console.log('much success!'))
+    .then(() => console.log('wrote to:', WRITE_PATH.pathname))
     .catch(e => console.warn('oops!\n', e));
 
 
