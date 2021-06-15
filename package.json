@@ -1,7 +1,6 @@
 {
   "name": "fem-nodev2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,15 @@
     "ramda": "^0.27.1",
     "rxjs": "^7.1.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natestrong/fem-nodev2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natestrong/fem-nodev2/issues"
+  },
+  "homepage": "https://github.com/natestrong/fem-nodev2#readme",
+  "description": ""
 }
