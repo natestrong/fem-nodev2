@@ -6,6 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(morgan('dev'));
 
+
 const db = [
     {id: 0, text: 'Go to the movies'},
     {id: 1, text: 'Eat a pizza.'},
